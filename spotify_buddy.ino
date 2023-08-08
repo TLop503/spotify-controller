@@ -1,3 +1,7 @@
+//Due to VSC being not built for arduino, copy and paste this code into the arduino IDE
+//Secrets are used for obtaining wifi and spotify credentials
+//Just paste these in with your own credentials
+
 
 /*========================================
 |Include all libraries needed for program|
@@ -54,12 +58,12 @@ bool tft_output(int16_t x, int16_t y, uint16_t w, uint16_t h, uint16_t *bitmap)
 |User modifiable variables|
 =========================*/
 // WiFi credentials
-#define WIFI_SSID "YOUR_WIFI_NAME"
-#define PASSWORD "YOUR_WIFI_PASSWORD"
+#define WIFI_SSID secrets.WIFI
+#define PASSWORD secret.PASSWORD
 
 // Spotify API credentials
 #define CLIENT_ID "4d080e575f074a95b742b1beee6e3928"
-#define CLIENT_SECRET secrets.CLIENT_SECRET
+#define CLIENT_SECRET secrets.CLIENT
 #define REDIRECT_URI "http://YOUR_ESP_IP/callback"
 
 /*=========================
