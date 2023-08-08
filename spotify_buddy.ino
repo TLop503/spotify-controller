@@ -59,8 +59,8 @@ bool tft_output(int16_t x, int16_t y, uint16_t w, uint16_t h, uint16_t* bitmap)
 #define PASSWORD "YOUR_WIFI_PASSWORD"
 
 // Spotify API credentials
-#define CLIENT_ID "YOUR_CLIENT_ID"
-#define CLIENT_SECRET "YOUR_CLIENT_SECRET"
+#define CLIENT_ID "4d080e575f074a95b742b1beee6e3928"
+#define CLIENT_SECRET "secret"
 #define REDIRECT_URI "http://YOUR_ESP_IP/callback"
 
 /*=========================
